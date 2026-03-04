@@ -16,6 +16,8 @@ jobs:
           cache: "pnpm"
       - run: pnpm install
       - run: pnpm build
+      - run: mkdir -p dist/public
+      - run: cp public/config.toml dist/public/config.toml
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
