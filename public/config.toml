@@ -1,0 +1,110 @@
+# Kru Japanese Configuration - Bilingual Support
+
+[common]
+image = "profile.jpg"
+location_icon = "MapPin"
+sns_facebook = "https://facebook.com"
+sns_instagram = "https://instagram.com"
+sns_tiktok = "https://tiktok.com"
+google_form_url = "https://docs.google.com/forms/d/e/your-form-id/viewform"
+
+[jp]
+name = "山田の日本語教室"
+title = "Yamada Japanese"
+bio = """
+こんにちは！日本在住5年目のタイ人留学生です。
+JLPT N1を保持しており、教科書には載っていない「リアルな日本語」や、日本での生活に役立つ実践的な会話、文化のコツを教えています。
+SNSでは、タイ人が間違いやすい日本語や、面白い表現などのTipsを毎日発信中！
+楽しく、そして確実にステップアップできるレッスンを提供します。
+"""
+location = "日本・茨城（オンライン）"
+qualifications = ["日本語能力試験(JLPT) N1", "日本在住5年目"]
+
+[[jp.career]]
+year = "2022"
+event = "日本の学校へ入学（来日）"
+
+[[jp.career]]
+year = "2023"
+event = "JLPT N3 合格"
+
+[[jp.career]]
+year = "2024"
+event = "JLPT N2 合格"
+
+[[jp.career]]
+year = "2025"
+event = "JLPT N1 合格"
+
+[jp.pricing]
+label = "料金プラン"
+standard_title = "通常レッスン"
+standard_desc = "1コマ2時間"
+standard_price = "100"
+standard_unit = "バーツ"
+bulk_title = "まとめ買いパック"
+bulk_desc = "5コマ予約で1コマ無料！"
+bulk_detail = "5コマ分の料金で6コマ受講可能"
+trial_title = "無料体験"
+trial_desc = "初回限定"
+trial_detail = "1時間の無料トライアル"
+
+[jp.booking]
+title = "お申し込み"
+description = "SNSのDM、またはGoogleフォームよりお気軽にご連絡ください。"
+button_text = "Googleフォームで申し込む"
+
+[jp.sns_section]
+title = "SNSで日本語Tips発信中！"
+description = "TikTokやInstagramで、日本語の面白い表現や、タイ人が間違いやすいポイントを動画で紹介しています。ぜひフォローしてチェックしてみてください！"
+
+[th]
+name = "P'Yamada Japanese"
+title = "Yamada Japanese"
+bio = """
+สวัสดีครับ! ผมเป็นนักเรียนไทยที่ใช้ชีวิตอยู่ในญี่ปุ่นมาปีนี้เป็นปีที่ 5 แล้วครับ
+สอบผ่าน JLPT N1 และอยากจะแชร์ภาษาญี่ปุ่นที่ 'ใช้ได้จริง' ซึ่งไม่มีในตำรา 
+รวมถึงเทคนิคการใช้ชีวิตในญี่ปุ่นและเกร็ดความรู้ต่างๆ
+ใน SNS ผมยังแชร์ Tips ภาษาญี่ปุ่นที่น่าสนใจและจุดที่คนไทยมักจะใช้ผิดอยู่เสมอ
+มาเรียนภาษาญี่ปุ่นให้สนุกและเก่งขึ้นไปด้วยกันนะครับ!
+"""
+location = "โตเกียว, ญี่ปุ่น (ออนไลน์)"
+qualifications = ["JLPT N1", "อาศัยในญี่ปุ่น 5 ปี"]
+
+[[th.career]]
+year = "2022"
+event = "เริ่มเรียนต่อที่ประเทศญี่ปุ่น"
+
+[[th.career]]
+year = "2023"
+event = "สอบผ่าน JLPT N3"
+
+[[th.career]]
+year = "2024"
+event = "สอบผ่าน JLPT N2"
+
+[[th.career]]
+year = "2025"
+event = "สอบผ่าน JLPT N1"
+
+[th.pricing]
+label = "ค่าเรียน"
+standard_title = "คลาสปกติ"
+standard_desc = "1 คลาส (2 ชั่วโมง)"
+standard_price = "100"
+standard_unit = "บาท"
+bulk_title = "แพ็กเกจสุดคุ้ม"
+bulk_desc = "จอง 5 คลาส แถมฟรี 1 คลาส!"
+bulk_detail = "จ่ายเพียง 5 คลาส แต่ได้เรียนถึง 6 คลาส"
+trial_title = "ทดลองเรียน"
+trial_desc = "สำหรับครั้งแรก"
+trial_detail = "ทดลองเรียนฟรี 1 ชั่วโมง"
+
+[th.booking]
+title = "สมัครเรียน"
+description = "ติดต่อสอบถามหรือสมัครเรียนได้ทาง DM ของ SNS ต่างๆ หรือกรอก Google Form ด้านล่างนี้ได้เลยครับ"
+button_text = "สมัครผ่าน Google Form"
+
+[th.sns_section]
+title = "ติดตาม Tips ภาษาญี่ปุ่นใน SNS!"
+description = "ผมแชร์ความรู้ภาษาญี่ปุ่นที่น่าสนใจและจุดที่คนไทยมักใช้ผิดผ่าน TikTok และ Instagram ทุกวัน ฝากกดติดตามกันด้วยนะครับ!"
