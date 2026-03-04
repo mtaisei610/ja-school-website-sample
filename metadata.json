@@ -1,0 +1,5 @@
+{
+  "name": "Kru Japanese - Personal Japanese School",
+  "description": "A landing page for a personal Japanese language school targeting Thai students, configurable via TOML.",
+  "requestFramePermissions": []
+}
