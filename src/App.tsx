@@ -175,7 +175,7 @@ export default function App() {
   useEffect(() => {
     const fetchConfig = async () => {
       try {
-        const response = await fetch(`/config.toml?t=${Date.now()}`);
+        const response = await fetch(`./config.toml?t=${Date.now()}`);
         if (!response.ok) throw new Error("Failed to load configuration");
         const text = await response.text();
         const data = parse(text) as unknown as Config;
@@ -199,7 +199,7 @@ export default function App() {
           transition={{ repeat: Infinity, duration: 2 }}
           className="text-pink-400 font-serif text-2xl italic"
         >
-          Kru Japanese
+          Now Loading...
         </motion.div>
       </div>
     );
